@@ -29,10 +29,10 @@ https://github.com/user-attachments/assets/a429e3b2-325d-4f03-9d4e-5bf4fe5f05a2
 This feature utilizes OpenGL techniques within the Minecraft system to offload shader rendering to the GPU, preventing the exhaustion of system resources—similar to frame generation.
 However, there are limits to how small or large you can set the values, as shown below.:
 
-1. from 1 : is off or no upscaling and image degradation
-2. from 2 to 4 : is upscaling and image reduction, here the image is a little blurry and some glitches on Global Illumination
-3. from 4 - 11: is the biggest decrease, the image has more artifacts and is blurry but gets higher fps
-4. from 11 - 100 : not recommended, the image is very blurry and not playable and the driver is destroyed for rendering the scene
+1. **from 1 : is off or no upscaling and image degradation**
+2. **from 2 to 4 : is upscaling and image reduction, here the image is a little blurry and some glitches on Global Illumination**
+3. **from 4 - 11: is the biggest decrease, the image has more artifacts and is blurry but gets higher fps**
+4. **from 11 - 100 : not recommended, the image is very blurry and not playable and the driver is destroyed for rendering the scene**
 
 For me, if you use 2-4, it's the best and there aren't many artifacts.
 
