@@ -20,6 +20,24 @@ RTV comes with several quality presets and a range of settings for lighting, wat
 - **Color Controls** — Adjust saturation, vibrance, exposure, and tone mapping.
 - **Quality Presets** — Choose between Low, Medium, High, and Extreme.
 
+## Driver aceleration 
+
+Driver acceleration is a unique feature that reduces screen resolution to achieve a higher frame rate (FPS); you can enable it by following the guide below:
+
+https://github.com/user-attachments/assets/a429e3b2-325d-4f03-9d4e-5bf4fe5f05a2
+
+This feature utilizes OpenGL techniques within the Minecraft system to offload shader rendering to the GPU, preventing the exhaustion of system resources—similar to frame generation.
+However, there are limits to how small or large you can set the values, as shown below.:
+
+1. from 1 : is off or no upscaling and image degradation
+2. from 2 to 4 : is upscaling and image reduction, here the image is a little blurry and some glitches on Global Illumination
+3. from 4 - 11: is the biggest decrease, the image has more artifacts and is blurry but gets higher fps
+4. from 11 - 100 : not recommended, the image is very blurry and not playable and the driver is destroyed for rendering the scene
+
+For me, if you use 2-4, it's the best and there aren't many artifacts.
+
+  
+
 ## Version & Requirements
 
 - **Shader version:** 0.3
@@ -27,6 +45,10 @@ RTV comes with several quality presets and a range of settings for lighting, wat
 - **Graphics API:** OpenGL 4.3 or newer
 - **Shader language:** GLSL 4.30 compatibility
 - **Required Iris feature:** Custom Images
+- **Shaders can only be used from version 1.21.8 up to 26.2.**
+
+
+
 
 ## Performance
 
