@@ -2,6 +2,8 @@
 
 **RTV (Ray Tracing Visual)** is a modified shader build based on the ray-tracing tutorial and code by **timetravelbeard**.
 
+These shaders are intended for visual enhancements, such as ray tracing in the Bedrock Edition; however, opinions on them can vary from person to person.
+
 The main focus is voxel-based ray tracing, global illumination, and light bounce. It also includes ray-traced reflections, configurable shadows, temporal accumulation, and denoising to help keep the image cleaner over time.
 
 RTV comes with several quality presets and a range of settings for lighting, water, glass, shadows, and color. You can adjust the balance between image quality and performance to suit your setup.
